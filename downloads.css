@@ -1,0 +1,168 @@
+
+
+#Banner-downloads { background-color: #EFEFEF;
+	margin-top: 70px; 
+	margin-bottom: 20px;
+                 padding: 40px 0; }
+
+#Banner-downloads h1 {
+	    color: #333333;
+	    line-height: 70px;
+	    font-size: 55px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 700;
+	    letter-spacing: -2px;
+	   }    
+
+#Banner-downloads p {
+	    padding-left: 35px;
+	    display: block;
+	    border-left: 1.5px #888888 solid;
+	    color: #333333;
+	    font-size: 22px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 400;
+	    letter-spacing: -1px;
+	   }   
+
+#Banner-downloads .col-md-3 {margin: auto 0}	    	   
+
+.caixa-header-banner {padding: 70px 0 0 40px;}
+
+.caixa-texto-banner {padding: 50px 30px 20px 0;}
+
+.caixa-imagem-banner {padding: 10px;}
+
+/*#Banner-downloads .container {border-bottom: 3px solid #888888; padding-bottom: 30px;}*/
+
+.btn-downloads {  padding: 5px 30px;
+	              font-variant-caps: small-caps;
+	              font-size: 30px;
+	              width: 100%;
+	              text-align: center;
+	              -webkit- border-radius: 10px;
+	                       border-radius: 10px;
+	              color: white; border:none;
+                  font-family: 'Montserrat', sans-serif;
+                  font-weight: 600;
+                  transition: color 0.5s , background-color 0.5s;}
+
+
+#area-downloads {padding: 10px 0 40px 0 ;}    
+
+#area-downloads h2 {text-align: center;
+                     font-family: 'Montserrat', sans-serif;
+                  font-weight: 600;}              
+
+#area-downloads .col-md-3 p {     padding: 0 3px;
+                                  margin-top: 20px;
+	                              font-family: 'Montserrat', sans-serif;
+                                  font-weight: 400;
+                                  font-size: 15px;}    
+
+     /* TONS DE FUNDO */                                                
+
+.cor1 {background-color: #74cd6c;}    
+.cor2 {background-color: #65c692;}    
+.cor3 {background-color: #59bfb1;}    
+.cor4 {background-color: #4cb9d2;} 
+
+/*              MODALS        */
+
+.btn-downloads-modal {  padding: 5px 10px;
+	              font-variant-caps: all-small-caps; 
+	              font-size: 20px;
+	              width: 100px;
+	              text-align: center;
+	              -webkit- border-radius: 10px;
+	                       border-radius: 10px;
+	              color: white; border:none;
+                  font-family: 'Montserrat', sans-serif;
+                  font-weight: 600;
+                  transition: color 0.5s , background-color 0.5s;
+                  margin-right: 10px;}
+
+.btn-downloads-modal {  }                  
+
+.modal-texto {font-family: 'Montserrat', sans-serif;}
+
+
+/*               BALÕES DE DOWNLOAD            */
+
+#area-downloads .col-md-4 {padding: 0 40px;}
+
+.download-card {display: flex;
+       display: -webkit- flex;
+          display: -moz- flex; 
+                flex-direction: column;
+          -moz- flex-direction: column;
+       -webkit- flex-direction: column;
+	            margin: 20px 0;
+	            border-radius: 20px;
+	            -webkit- border-radius: 20px;
+	            -moz- border-radius: 20px;
+	            width: 100%;
+                height: 200px;}
+
+
+.linhas {border-left: 1.5px solid  #888888;
+         border-right: 1.5px solid #888888;}
+
+
+  
+
+.faixa-titulo {    
+                   text-align: center;
+                   font-variant-caps: all-small-caps; 
+                   letter-spacing: 3px;
+                   font-family: 'Montserrat', sans-serif;
+                   padding: 5px 0;
+                   color: white;
+                   font-weight: 600;
+                   font-size: 22px;}    
+
+.faixa-conteudo {  width: 100%;
+	               font-family: 'Montserrat', sans-serif;
+	               padding: 10px 10px;
+	               height: 60%;
+                   font-weight: 400;
+                   font-size: 15px;
+                   background-color: #efefef;}         
+
+.faixa-veja-mais { text-align: center;
+	               font-variant-caps: all-small-caps; 
+                   letter-spacing: 3px;	               
+	               padding: 0 0;
+                   }   
+
+.faixa-veja-mais a {     text-decoration: none;
+	                     color: white;
+                         font-family: 'Montserrat', sans-serif;
+                         font-weight: 500;
+                         font-size: 28px;
+                         transition: font-size 0.25s , font-weight 0.25s ;}  
+
+.faixa-veja-mais a:visited {
+	                     text-decoration: none;
+	                     color: white;
+                         font-family: 'Montserrat', sans-serif;
+                         font-weight: 500;
+
+                         font-size: 28px;}                            
+
+.faixa-veja-mais a:hover {
+                         
+	                     text-decoration: none;
+	                     color: #EEEEEE;
+                         font-family: 'Montserrat', sans-serif;
+                         font-weight: 700;
+                         font-size: 32px;}   
+
+.faixa-veja-mais a:active {
+
+	                     text-decoration: none;
+	                     color: white;
+                         font-family: 'Montserrat', sans-serif;
+                         font-weight: 500;
+                         font-size: 28px;}                                            
+

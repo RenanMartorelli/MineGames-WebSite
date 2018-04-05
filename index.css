@@ -1,0 +1,209 @@
+/* ------------------- BODY -------------------- */
+
+html, body, .capa {
+	height: 100%;
+	overflow-x: hidden;
+	overflow: none;
+}
+
+@media screen and (max-width: 992px) {.capa {
+	height: 100%;
+	overflow: none;
+} }
+
+
+@media screen and (max-width: 768px) {.capa {
+	height: 100%;
+	overflow: none;
+} }
+
+body { -webkit-perspective: 6px;
+               perspective: 6px;
+       -webkit-perspective-origin: 50% 160px;
+               perspective-origin: 50% 160px;}
+     
+
+/* ------------------- CAPA ---------------------- */
+
+
+
+.capa-fundo {background: url('imagens/backgroundcapa.png');
+             background-attachment: fixed;
+    }
+
+.align-capa { padding: 80px 50px }
+
+
+.capa { margin-top: 0px; }
+
+.capa-texto {margin-top: 50px;
+	         text-align: right;}
+
+.hexagonos {position: absolute;
+	-webkit-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+}	 
+
+.hexagono1 {position: absolute;
+	        top: 10%;
+            left: 41%; 
+            -webkit-transform: translate(-50%, -50%) translateZ(0.5px);
+}                    
+
+.hexagono2 {position: absolute;
+	        top: 75%;
+            left: 56%; 
+         -webkit-transform: translate(-50%, -50%) translateZ(2px);
+     }
+
+.hexagono3 {position: absolute;
+	        top: 72%;
+            left: 13%; 
+-webkit-transform: translate(-50%, -50%) translateZ(1px);}                    
+
+.hexagono4 {position: absolute;
+	        top: 48%;
+            left: 80%; 
+-webkit-transform: translate(-50%, -50%) translateZ(2px);}                   
+
+.hexagono5 {position: absolute;
+	        top: 60%;
+            left: 45%; 
+           -webkit-transform: translate(-50%, -50%) translateZ(-2px);
+}                    
+
+
+/* ------------------- BOTÕES ---------------------- */
+
+.btn-custom {color: white;
+             border-radius: 500px;
+             font-variant-caps: all-small-caps;
+             -webkit-border-radius: 500px;
+             font-family:  'Montserrat', sans-serif;  
+              font-weight: 600;
+              font-size: 18px;
+              letter-spacing: 2px;
+             -o-border-radius: 500px;
+              padding: 13px 44px;
+              margin: 10px 5px;
+
+              transition: background 0.4s, color 0.4s;}
+
+@media screen and (max-width: 992px)  {.btn-custom  {
+    font-size: 13px;
+	padding: 13px 30px; }}
+
+@media screen and (max-width: 768px) {.btn-custom  {
+font-size: 13px;
+padding: 13px 25px; }}
+
+
+@media screen and (max-width: 600px) {.btn-custom  {
+    font-size: 12px;
+	padding: 13px 20px; }}
+
+.btn-verde {background: #74cd6c;}
+
+.btn-verde:hover {background-color: white;
+	        color: black;}
+
+.btn-white {background: #4cb9d2;
+           }
+
+.btn-white:hover {background-color: white;
+	        color: black;
+            }
+
+/* ---------------------- SERVIÇOS ----------------------- */
+
+.rotacionar {transform: rotate(-30deg);
+             padding: 30px;
+              margin-right: 30px;}
+
+#servicos {background-color: white;
+           padding: 20px 0;}
+
+.albuns {margin: 0px;
+         padding: 0px;}
+
+/* ---------------------- RECURSOS ----------------------- */
+
+#recursos { background: url('imagens/recursos-bg.png');
+           padding: 60px 0px 60px 0px;}
+
+.imagem-recursos {max-height: 500px;}
+
+/* ---------------------- TIPOGRAFIA CAPA ----------------------- */
+
+.capa-texto>h1 {
+		color: white;
+	   font-size: 60px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 700;
+	    letter-spacing: -2px;
+	    margin-bottom: 50px; }
+
+	    @media screen and (max-width: 992px) { 
+
+.capa-texto h1 {font-size: 60px;}
+	     }
+
+	     @media screen and (max-width: 768px) { 
+
+.capa-texto h1 {font-size: 52px;}
+	     }
+
+	     @media screen and (max-width: 600px) { 
+
+.capa-texto h1 {font-size: 35px;}
+	     }
+
+/* ---------------------- TIPOGRAFIA RECURSOS ----------------------- */
+
+
+
+#recursos p, #recursos h3, #recursos h2 {color: white; }
+
+/* ---------------------- TIPOGRAFIA SERVICOS ----------------------- */
+
+#servicos p, #recursos p {
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        line-height:170%;
+        display: block;
+        margin-bottom: 30px;}
+
+
+#servicos  h3, #recursos h3 {
+		font-size: 25px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600; 
+		display: block;
+		 margin-bottom: 0px;}
+
+#servicos  h2, #recursos h2 {    
+		font-size: 50px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600; }
+
+	     
+
+ #servicos  h4, #recursos h4, {
+    	font-size: 12px;
+    	color: #919496; 
+    	letter-spacing: 2px;
+    	font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-color: white; }
+
+#servicos p {color: rgb(40, 40, 40); }
+
+#servicos h3, #servicos h2 {color: black; }        
+

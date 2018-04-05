@@ -1,0 +1,108 @@
+/* ------------------- BANNER-CURSOS ----------------------- */  
+
+#Banner-cursos { background-color: #EFEFEF;
+	            margin-top: 70px; 
+	            margin-bottom: 20px;
+                 padding: 40px 0; }
+
+#Banner-cursos h1 {
+	    color: #333333;
+	    line-height: 80px;
+	    font-size: 55px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 700;
+	    letter-spacing: -2px;
+	   }    
+
+#Banner-cursos p {
+	    padding-left: 35px;
+	    display: block;
+	    border-left: 1.5px #888888 solid;
+	    color: #333333;
+	    font-size: 22px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 400;
+	    letter-spacing: -1px;
+	   }   
+
+#Banner-cursos .col-md-3 {margin: auto 0}	    	   
+
+.caixa-header-banner {padding: 30px 0 0 60px;}
+
+.caixa-texto-banner {padding: 50px 30px 40px 0;}
+
+.caixa-imagem-banner {padding: 10px;}
+
+/*#Banner-cursos .container {border-bottom: 3px solid #333333; padding-bottom: 30px;}*/
+
+
+/* ------------------- CURSOS ----------------------- */  
+
+#cursos { padding-top: 50px;
+
+          padding-bottom: 50px;}
+
+
+#curso-mine {background: url('imagens/cartao-curso-mine.png');
+}
+
+
+#curso-2D {background: url('imagens/cartao-curso-2d.png');}
+
+#curso-3D {background: url('imagens/cartao-curso-3d.png');}
+
+.cartao-curso { display: -webkit- flex;
+	                    display: flex;
+	                    -webkit- justify-content: center;
+	                             justify-content: center;
+               -webkit- flex-direction: column;
+                        flex-direction: column;
+  	           margin: 0 auto;
+               width: 285px;
+               height: 287px;
+               transition: transform 0.8s , box-shadow 0.5s;
+               backface-visibility: hidden;}
+
+ .cartao-curso:hover {
+-webkit- transform: translate(0, -10px) scale(1.025, 1.025);
+         transform: translate(0, -10px) scale(1.025, 1.025);
+-webkit- box-shadow: 2px 20px 30px 10px rgba(0, 0, 0, 0.2) ;
+         box-shadow: 2px 20px 30px 10px rgba(0, 0, 0, 0.2) ;
+          }
+
+.cartao-faixa { -webkit- align-self: center;
+	                    align-self: center;
+	           background-color: #ededed;
+	           width: 285px;
+               height: 63px;
+               padding: 12px 0px;
+
+        text-align: center;
+	    color: #343434;
+	    font-size: 27px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 900;
+	    letter-spacing: -1px;
+               }   
+
+a:link {text-decoration: none;}               
+
+a:visitided {text-decoration: none;}                  
+
+a:hover {text-decoration: none;}
+
+a:active {text-decoration: none;}
+
+
+
+
+.nome-curso{ height: 235px; 
+		padding-top: 6px;
+		padding-left: 6px;    
+	    color: #FFFFFF;
+	    font-size: 22px;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 600;
+	    letter-spacing: -0.5px;
+             }      
+
